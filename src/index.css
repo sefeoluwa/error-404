@@ -4,6 +4,7 @@
     margin: 0;
     font-family: 'Maitree', serif;
     background-color: #EED0EE;
+    overflow: hidden;
 }
 
 .main{
@@ -76,26 +77,23 @@
     width:auto;
     height:auto;
     padding-top: 10vh;
-    margin-bottom: 3vh;
-}
-
-.second-container{
-    width:50vh;
-   
+    margin-bottom: 5vh;
+    
 }
 
 .second-type{
-   margin-bottom: -9vh;
+   margin-bottom: -15vh;
    margin-left:3vw;
    width: 13vw;
+  
 }
 
 .third-container{
-    margin-left: 8.5vw;
+    margin-left: 10vw;
     padding-bottom: 3vh;
-    z-index: 2;
 }
 
 .third-type{
-    margin-top: -6vh;
+    width: 7vw;
+    z-index: 4;
 }
