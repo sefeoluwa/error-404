@@ -62,3 +62,12 @@
     font-weight: bold;
     font-size: 13px;
 }
+
+.image-side{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:50%;
+    left: 50%;
+}
