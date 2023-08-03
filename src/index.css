@@ -39,13 +39,26 @@
 
 }
 
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+}
+
 .button{
     font-size: 12px;
-    width:128px;
-    height:43px;
+    width: 128px;
+    height: 43px;
     background-color: #9D0E67;
     color:#fff;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border: none;
-    
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.button:hover{
+    font-weight: bold;
+    font-size: 13px;
 }
