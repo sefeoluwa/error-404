@@ -1,4 +1,4 @@
-import { Gummy } from "../assets"
+import  Gummy  from "../assets/Gummy.png"
 
 
 const Error = () => {
@@ -15,7 +15,7 @@ const Error = () => {
            </div>
 
             <div className="image-side">
-                <img src={Gummy} alt="sad face cartoon" />
+                <img src={Gummy} alt="sad face cartoon" className="gummy"/>
             </div>
 
        </div>
