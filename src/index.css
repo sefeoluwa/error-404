@@ -5,6 +5,7 @@
     font-family: 'Maitree', serif;
     background-color: #EED0EE;
     overflow: hidden;
+    
 }
 
 .main{
@@ -73,37 +74,94 @@
 }
 
 .first-type{
-    margin-top: 7vh;
+    margin-top: 14vh;
     width: 20vh;
 }
 
-.top-vector{
+.top-vector {
     position: absolute;
-    bottom:60%;
-    left:75%;
+    bottom: 69vh;
+    left: 79vw;
     display: flex;
     flex-direction: column;
-    margin-left: 9vw;
-    width:auto;
-    height:auto;
+    margin-left: 5vw;
+    width: auto;
+    height: auto;
     padding-top: 10vh;
-    margin-bottom: 5vh;
-    
+    margin-bottom: 1vh;
 }
 
-.second-type{
-   margin-bottom: -15vh;
-   margin-left:3vw;
-   width: 13vw;
-  
+.second-type {
+    margin-bottom: -11vh;
+    margin-left: 3vw;
+    width: 13vw;
 }
 
-.third-container{
-    margin-left: 10vw;
+.third-container {
+    margin-left: 5vw;
     padding-bottom: 3vh;
 }
 
-.third-type{
+.third-type {
     width: 7vw;
     z-index: 4;
 }
+
+/* Media queries for specific screen sizes */
+@media (min-width: 1441px) {
+
+    .oops{
+        font-size: 70px;
+        margin-left: -5px;
+    }
+
+    .error{
+        font-size: 34px;
+    }
+
+    .para{
+        font-size: 20px;
+    }
+
+    .button{
+        font-size: 14px;
+    }
+
+    .button:hover{
+        font-size: 15px;
+    }
+
+
+    .image-side{
+        height: 70vh;
+        margin-top: -5vh;
+    }
+
+    .gummy{
+        width: 40vw;
+        height: 60vh;
+        margin-top: -17vh; 
+    }
+
+     .top-vector {
+        bottom: 64vh;
+        margin-left: 7vw;
+    }
+    
+    .second-type {
+        margin-bottom: -14vh;
+        margin-left: 1vw;
+       
+    }
+    
+    .third-container {
+        margin-left: 3vw;
+        padding-bottom: 2vh;
+    }
+    
+    .first-type {
+       margin-top: 3vh; 
+    }
+}
+
+/* Add more media queries for other screen sizes as needed */
