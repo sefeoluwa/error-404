@@ -71,3 +71,10 @@
     top:50%;
     left: 50%;
 }
+
+.top-vector{
+    position: absolute;
+    bottom:80%;
+    left:70%;
+    display: flex;
+}
