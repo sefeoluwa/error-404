@@ -1,5 +1,5 @@
-import { Error } from './components' 
-import Settings from './components'
+import { Error, Settings } from './components' 
+
 
 
 function App() {
