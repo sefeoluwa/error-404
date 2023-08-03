@@ -9,4 +9,35 @@
     padding: 0;
     margin: 0;
     font-family: 'Maitree', serif;
+    background-color: #EED0EE;
+}
+
+.main{
+    display: flex;
+}
+
+.text-side{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12vw;
+    
+}
+
+.oops{
+    font-size: 50px;
+}
+
+.error{
+    font-size: 30px;
+    
+}
+
+.para{
+    font-size: 18px;
+}
+
+.button{
+    font-size: 12px;
 }
