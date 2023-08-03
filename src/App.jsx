@@ -1,4 +1,5 @@
 import { Error } from './components' 
+import Settings from './components/Settings'
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
     <Error />
+    <Settings />
       </>
   )
 }
