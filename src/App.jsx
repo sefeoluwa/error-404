@@ -1,5 +1,5 @@
 import { Error } from './components' 
-import Settings from './components/Settings'
+import Settings from './components'
 
 
 function App() {
