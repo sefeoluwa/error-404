@@ -7,7 +7,9 @@ const Settings = () => {
    
    <div className="top-vector">
         <img src={Vector} alt="settings icon" className="second-type"/>
-        <img src={Vector} alt="settings icon" className="third-type"/>
+       <div className="third-container">
+         <img src={Vector} alt="settings icon" className="third-type"/>
+       </div>
    </div>
     </>
   )
