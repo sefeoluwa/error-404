@@ -67,6 +67,11 @@
     left: 50%;
 }
 
+.first-type{
+    margin-top: 7vh;
+    width: 20vh;
+}
+
 .top-vector{
     position: absolute;
     bottom:60%;
