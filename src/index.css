@@ -17,27 +17,35 @@
 }
 
 .text-side{
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    display:block;
     padding: 12vw;
+    width:fit-content;
     
 }
 
 .oops{
     font-size: 50px;
+    font-weight: bold;
 }
 
 .error{
     font-size: 30px;
-    
+   
 }
 
 .para{
     font-size: 18px;
+    width: 237px;
+
 }
 
 .button{
     font-size: 12px;
+    width:128px;
+    height:43px;
+    background-color: #9D0E67;
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    
 }
